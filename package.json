@@ -1,0 +1,27 @@
+{
+  "name": "restaurant-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "npm run build; webpack-dev-server --mode development --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "animate.sass": "^1.0.1",
+    "css-loader": "^0.28.10",
+    "file-loader": "^1.1.6",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.20.2",
+    "uikit": "^3.0.0-rc.16",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9"
+  }
+}
