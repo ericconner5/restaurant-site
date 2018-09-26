@@ -1,0 +1,115 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+
+  margin: 0;
+  background-color: rgb(220,220,220);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  perspective: 40px;
+}
+
+#inner {
+  width: 20em;
+  height: 18em;
+  background-color: white;
+  transition: transform 0.5s;
+}
+
+img {
+  height: 100%;
+  background-size: contain;
+}
+
+
+
+// a {
+//   width: 100px;
+//   height: 100px;
+//   background-color: red;
+// }
+//
+// .gallery {
+//   display: flex;
+//   justify-content: space-around;
+//   flex-wrap: wrap;
+//   flex-direction: row;
+//   min-width: 100%;
+//   min-height: 100%;
+//   margin: 10px;
+//   a {
+//     margin: 10px;
+//     background-color: red;
+//     height: 100px;
+//     width: 100px;
+//     flex-grow: 1;
+//     float:left;
+//     background-size: cover;
+//     min-width: 25%;
+//     max-width: 50%;
+//     background-color: coral;
+//     }
+//   }
+//
+//
+// .moving-zone {
+//     position: absolute;
+//     // top:50%; left:50%;
+//     width: 70%;
+//     height: 80%;
+//     margin: auto;
+//     margin-top: 7%;
+//     perspective: 800px;
+// }
+//
+//
+// .popup {
+//     position: absolute;
+//     // max-width: 100%;
+//     padding: 10px;
+//     box-sizing: border-box;
+//     border-radius: 20px 0 20px 0;
+//     cursor: pointer;
+//     transform-style: preserve-3d;
+//     background: -webkit-linear-gradient(top left, white 50%, coral 50%);
+//     background:    -moz-linear-gradient(top left, white 50%, coral 50%);
+//     background:     -ms-linear-gradient(top left, white 50%, coral 50%);
+//     background:      -o-linear-gradient(top left, white 50%, coral 50%);
+//     background:         linear-gradient(top left, white 50%, coral 50%);
+//     z-index: 2;
+// }
+// .popup:before {
+//     content: '';
+//     position: absolute;
+//     left:5%; top:5%;
+//     width:90%; height:90%;
+//     border-radius: inherit;
+//     background: rgba(0,0,0,.1);
+//     box-shadow: 0 0 40px 20px rgba(0,0,0,.1);
+//     transform: translateZ(-100px);
+// }
+// .popup-content {
+//     background: #444;
+//     padding: 20px;
+//     box-sizing: border-box;
+//     border-radius: 10px 0 10px 0;
+// }
+// .popup-text {
+//     color: white;
+//     font-family: 'Roboto', sans-serif;
+//     font-size: 20px;
+//     line-height: 30px;
+//     font-weight: 100;
+//     text-align: center;
+//     transform: translateZ(15px);
+// }
+// .popup-text b {
+//     color: coral;
+//     font-weight: 300;
+// }
